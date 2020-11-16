@@ -91,3 +91,19 @@ transition: 0.5s;
   background: #0090aa;
   transition: 0.5s;
 }
+
+/* 大きい背景画像 */
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home{
+  background-image: url(../images/main-bg.jpg);
+  min-height: 100vh;
+}
+
+#home .page-title{
+  text-transform: none;
+}
