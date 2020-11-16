@@ -57,3 +57,14 @@ transition: 0.5s;
   margin: 0 auto;
   padding: 0 4%;
 }
+
+/* home */
+.home-content{
+  text-align: center;
+  margin-top:10%;
+}
+
+.home-content p{
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
