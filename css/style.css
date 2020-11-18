@@ -230,7 +230,6 @@ aside p{
 
 /* モバイルサイズ */
 @media(max-width: 600px){
-  
   .page-title{
     font-size: 2.5rem;
   }
@@ -245,8 +244,13 @@ aside p{
   .main-nav li{
     margin: 0 20px;
   }
-    /* home */
-    .home-content{
-      margin-top: 20%;
-    }
+
+  .home-content{
+    margin-top: 20%;
   }
+
+  .page-header{
+    flex-direction: column;
+    align-items: center;
+  }
+}
