@@ -135,6 +135,7 @@ footer p{
 article{
   width: 60%;
   order: 2;
+  margin-right: 10px;
 }
 
 /* サイドバー */
@@ -145,6 +146,7 @@ aside{
 
 .ad{
   order: 1;
+  margin-right: 10px;
 }
 
 .news-contents{
@@ -303,5 +305,9 @@ aside p{
 
   .post-title, .post-cat{
     margin-left: 80px;
+  }
+
+  .ad{
+    display: none;
   }
 }
