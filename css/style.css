@@ -272,6 +272,10 @@ aside p{
   object-fit: cover;
 }
 
+/* contact */
+#contact{
+  background-image: url(../images/contact-bg.jpg);
+}
 
 
 /* モバイルサイズ */
