@@ -347,9 +347,22 @@ iframe{
 
 /* sns */
 #sns{
-  background: ;
+  background: #FAF7F0;
+  padding: 4% 0;
 }
 
+#sns .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+#sns .sub-title{
+  margin-bottom: 30px;
+}
+
+.sns-box{
+  width: 30%;
+}
 
 /* モバイルサイズ */
 @media(max-width: 600px){
